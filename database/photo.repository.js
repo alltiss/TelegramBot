@@ -64,7 +64,7 @@ function deleteMaterialsByDate(date) {
     });
 }
 
-/** ✅ Удалить ВСЕ фото за день */
+
 function deletePhotosByDateAndType(date, type) {
     return new Promise((resolve, reject) => {
         db.run(
